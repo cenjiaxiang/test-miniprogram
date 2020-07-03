@@ -1,0 +1,4 @@
+/* pages/form/form.wxss */
+.section {
+  margin-top: 30rpx;
+}

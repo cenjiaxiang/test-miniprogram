@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="container">
+  <image class="userinfo-avatar" src="/images/avatar/1.png"></image>
+  <text>username</text>
+  <view class="moto-container"  bindtap="onTap">
+    <text class="usermotto">开启小程序之旅</text>
+  </view>
+</view>

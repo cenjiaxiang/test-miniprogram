@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/form/form",
+    "pages/index/index",
+    "pages/posts/posts",
+    "pages/movies/movies",
+    "pages/posts/post-detail/post-detail",
+    "pages/movies/more-movies/more-movies",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "龙猫的旅途",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "list": [
+    {
+      "pagePath": "pages/posts/posts",
+      "text": "阅读",
+      "iconPath": "/images/tab/yuedu.png",
+      "selectedIconPath": "/images/tab/yuedu_hl.png"
+    },
+    {
+      "pagePath": "pages/movies/movies",
+      "text": "电影",
+      "iconPath": "/images/tab/dianying.png",
+      "selectedIconPath": "/images/tab/dianying_hl.png"
+    },
+    {
+      "pagePath": "pages/form/form",
+      "text": "表单",
+      "iconPath": "/images/tab/ciwei.png",
+      "selectedIconPath": "/images/tab/ciwei_hl.png"
+    }
+  ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "requiredBackgroundModes": [
+    "audio"
+  ]
+}

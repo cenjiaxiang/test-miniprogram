@@ -1,0 +1,36 @@
+<form bindsubmit="formSubmit" bindreset="formReset">
+	<view class="section section-gap">
+		<view>switch</view>
+		<switch name="switch" />
+	</view>
+	<view class="section section-gap">
+		<view>slider</view>
+		<slider value="50"></slider>
+	</view>
+	<view class="section">
+		<view>input</view>
+		<input name="input" placeholder="please input here" />
+	</view>
+	<view class="section">
+		<view>radio</view>
+		<radio-group>
+			<label>
+				<radio value="radio1" /> radio1 </label>
+			<label>
+				<radio value="radio2" /> radio2 </label>
+		</radio-group>
+	</view>
+	<view class="section">
+		<view>checkbox</view>
+		<checkbox-group name="checkbox">
+			<label>
+				<checkbox value="checkbox1" /> checkbox1 </label>
+			<label>
+				<checkbox value="checkbox2" /> checkbox2 </label>
+		</checkbox-group>
+	</view>
+  <view>
+    <button form-type="submit">submit</button>
+    <button form-type="reset">reset</button>
+  </view>
+</form>
