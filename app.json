@@ -1,7 +1,7 @@
 {
   "pages": [
-    "pages/form/form",
     "pages/index/index",
+    "pages/form/form",
     "pages/posts/posts",
     "pages/movies/movies",
     "pages/posts/post-detail/post-detail",
